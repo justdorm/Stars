@@ -1,5 +1,5 @@
-#background {
-  height: 80vh;
+.background {
+  height: 100vh;
 }
 body {
   background-color: black;
@@ -9,17 +9,17 @@ body {
 p {
   color: white;
 }
-#dark {
+.dark {
   text-align: center;
 }
-#arrowr {
+.arrowr {
   width: 70px;
   transform: rotate(90deg);
   position: fixed;
   left: 10%;
   bottom: 0%;
 }
-#arrowl {
+.arrowl {
   width: 70px;
   transform: rotate(270deg);
   position: fixed;
@@ -31,7 +31,7 @@ p {
   margin-left: 500px;
   margin-right: 500px;
 }
-#bg {
+.bg {
   background-color: black;
   background-image: url("images/bg.jpg");
   background-size: 100%;
@@ -52,16 +52,28 @@ h2 {
   margin-bottom: 50px;
 }
 
-#special {
+.special {
   margin-bottom: 200px;
+
 }
-#arrow {
+.titleBox a:hover {
+  color: #FF0000
+}
+a {
+  font-size: 30px;
+  color: #fff;
+  text-align: right;
+  margin-left: 800px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+.arrow {
   width: 70px;
   position: absolute;
   left: 90%;
   bottom:10%;
 }
-#title {
+.title {
   margin-top: 100vh;
   margin-bottom: 100px;
   text-align: center;
@@ -69,6 +81,9 @@ h2 {
   color: #fff;
 
 
+}
+p + p {
+  margin-top: 50px;
 }
 iframe {
   display: block;
